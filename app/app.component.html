@@ -1,0 +1,26 @@
+<nav class="navbar navbar-light bg-light" style="z-index:2;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;">
+  <a class="navbar-brand" href="#">
+    <img src="https://png.pngtree.com/element_origin_min_pic/17/09/20/4d3299e56955169137d152e972187c44.jpg" width="50" height="50" class="d-inline-block align-top" alt="">
+    <h5 class="d-inline-block" style="margin-top:10px">&nbsp;Standard Chartered Personal Banking</h5>
+  </a>
+</nav>
+  
+<div id="menu">
+  <ul class="menu" style="z-index: 3">
+    <li title="Home"><a routerLink="" class="home">Home</a></li>
+        <li title="Services"><a href="#" class="services">Services</a></li>
+        <li title="FAQs"><a routerLink="faq" class="faq">FAQs</a></li>
+        <li title="About"><a routerLink="aboutus" class="active about">About</a></li>
+        <li title="Contact"><a routerLink="contact" class="contact">Contact</a></li>
+  </ul>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-1 col-xs-5">
+    </div>
+    <div class="col-lg-11 col-xs-7">
+       <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

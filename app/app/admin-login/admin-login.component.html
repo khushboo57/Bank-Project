@@ -1,0 +1,87 @@
+<div class="container" style="background-color: #F2F2F2">
+  <div class="row" style="padding-top: 40px;">
+    <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="nav" >
+            <div class="container-fluid">
+             
+              <div style="padding: 30px;">
+              
+                <div class="shadow-lg p-3 mb-5 card rounded" style="margin:auto ; border-radius: 10px;font-family: 'Varela Round', sans-serif;">
+                  
+                  <div class="head" style="margin: auto;">
+                    &nbsp;<img src="../assets/admin.jpg" style="width: 270px;">
+                  </div><br>   
+                <form  [formGroup]="profileForm" (ngSubmit)="submitForm()" >
+                    
+                      <br><div class="form-group">
+                            
+                        <label for="adminname"><strong>Admin Name</strong></label>
+                        <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                        <span class="input-group-text" style="background-color: #E9B32F"><i class="fas fa-user"></i></span>
+                                        </div>
+                        <input type="text" style="border: solid 2px #E9B32F" placeholder="Enter Admin Name" required formControlName="adminname" class="form-control" id="uid">
+                      </div>
+                      </div>
+                      
+                    
+                      <div class="form-group">
+                          <label for="Password"><strong>Password</strong></label>
+                          <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                        <span class="input-group-text" style="background-color: #E9B32F"><i class="fas fa-key"></i></span>
+                                        </div>
+                          <input type="text" style="border: solid 2px #E9B32F" placeholder="Enter Password" required formControlName="Password" class="form-control" id="Password">
+                      </div>
+                      </div>
+                            <br>
+                    
+                          <button style="width: 100%;  border: 1px solid white;background-color: #E9B32F; font-weight: bold" class="btn" data-toggle="modal" data-target="#myModal" routerLink="adminnext" >Submit</button>
+                          
+                    </form>
+                  
+                    
+                   
+                 
+                    
+                     
+                </div>
+                </div>
+            
+            
+            
+            </div>
+            </div>
+            
+           
+    </div>
+    <div class=" col-lg-6 col-md-12 col-sm-12" style="padding: 30px">
+    <div class="card" style="color: black; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;">
+        
+          <nav class="navbar navbar-light">
+            <a class="navbar-brand" style="font-size: 30px;">
+                <i class="fa fa-bookmark" aria-hidden="true"></i>
+                   Important
+                   <hr>
+            </a>
+          </nav>
+
+        
+   <ul>
+                
+              <li>1.  Use a strong password. Choose passwords that are difficult for others to guess and use a different password for each of your online accounts.</li>
+              <li>2.  Change your passwords frequently. You can do this quickly and easily by logging in and visiting the Account Services tab, and then clicking on "Change My Profile."</li>
+   
+               <li>3.  Act quickly if you suspect fraud. If you believe someone is trying to commit fraud and/or if you think you may have provided personal or account information in response to a fraudulent email or website, report the incident immediately, change your passwords and monitor your account activity frequently.
+                If you have questions or need assistance, please call the Telephone Banking Center at 1.888.i bank mb (1.888.422.6562).</li>
+        </ul>
+      </div>
+      </div>
+  </div>
+
+  
+</div>
+ <div>
+              <router-outlet></router-outlet>
+            </div>

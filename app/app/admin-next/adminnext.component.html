@@ -1,0 +1,165 @@
+<div id="gradient"></div>
+<div id="card">
+   <h2>Admin</h2>
+  <p>Username: </p>
+  <p>====================</p>
+  <p>====================</p>
+</div>
+
+<!--
+
+<div style="margin: 30px auto">
+    <div class="container">
+        <div class="modal fade" id="modalFourth" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center" style="background-color: #588BAE">
+                        <h4 class="modal-title w-100 font-weight-bold">Mobile Change</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body mx-3">
+                        <div class="md-form mb-5">
+                            <label for="OldNum"><strong> Old Mobile Number</strong></label>
+                            <input type="number" style="border: solid 2px #588BAE;" placeholder="Enter Old Number" required formControlName="OldMob" class="form-control" id="old">
+                           
+                        </div>
+          
+                        <div class="md-form mb-4">
+                            <label for="account"><strong> New Mobile Number</strong></label>
+                            <input type="number" style="border: solid 2px #588BAE"  placeholder="Enter account number" required formControlName="account" class="form-control" id="accno">
+                        </div>
+          
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button class="btn btn-default" style="color: #588BAE">Login</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+          
+         
+</div> 
+
+<div>
+    <div class="container">
+            <div class="modal fade" id="modalOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document" style="border:solid;">
+                  <div class="modal-content">
+                      <div class="modal-header text-center" style="background-color: #588BAE">
+                          <h1 class="modal-title w-100 font-weight-bold">Deposit</h1>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body mx-3">
+                          <div class="md-form mb-5">
+                             
+                              
+                              <label for="amount"><strong> Amount </strong></label>
+                              <input type="number" style="border: solid 2px #588BAE" placeholder="Enter amount" required formControlName="amount" class="form-control" id="amt">
+                             
+                          </div>
+            
+                          <div class="md-form mb-4">
+                              <label for="account"><strong> Account number</strong></label>
+                              <input type="number" style="border: solid 2px #588BAE" placeholder="Enter account number" required formControlName="account" class="form-control" id="accno">
+                          </div>
+            
+                      </div>
+                      <div class="modal-footer d-flex justify-content-center">
+                          <button class="btn btn-default" style="color: #588BAE">save</button>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+    
+    </div> 
+
+    <div>
+
+
+            <div class="container">
+                    <div class="modal fade" id="modalSixth" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header text-center" style="background-color: #588BAE">
+                                <h4 class="modal-title w-100 font-weight-bold">Transfer Amount</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body mx-3">
+                                <div class="md-form mb-5">
+                                  <label for="AccNo"><strong> Account Number </strong></label>
+                                  <input type="number" style="border: solid 2px #588BAE" placeholder="Enter Receiver's Account Number" required formControlName="AccNo" class="form-control" id="AccNo">
+                                 
+                                    
+                                </div>
+                  
+                                <div class="md-form mb-5">
+                                        <label for="AccNo"><strong> Amount </strong></label>
+                                        <input type="number" style="border: solid 2px #588BAE" placeholder="Enter Amount" required formControlName="AccNo" class="form-control" id="AccNo">
+                                       
+                                          
+                                      </div>
+                  
+                            </div>
+                            <div class="modal-footer d-flex justify-content-center">
+                                <button class="btn btn-default" style="color: #588BAE">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div> 
+
+            <div>
+
+
+                    <div class="container">
+                            <div class="modal fade" id="modalThird" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header text-center" style="background-color: #588BAE">
+                                        <h3 class="modal-title w-100 font-weight-bold">BALANCE</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body mx-3">
+                                        <div class="md-form mb-5">
+                                            <label for="account"><strong> Account number</strong></label>
+                                            <input type="number" #account style="border: solid 2px #588BAE" placeholder="Enter account number" required  class="form-control" id="accno">
+                                        </div>
+
+                                        <div class="md-form mb-5">
+                                            <label for="account"><strong> Balance</strong></label>
+                                            <input type="number" value="{{balance}}"  style="border: solid 2px #588BAE"  class="form-control" id="accno">
+                                        </div>
+                          
+                                      
+                                    </div>
+                                    <div class="modal-footer d-flex justify-content-center">
+                                        <button class="btn btn-default" (click)="showBalance(account.value)" style="color: #588BAE">Total Balance</button>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          </div>
+                    </div> 
+</div>
+</div>
+       </div>
+
+       -->
+<div style="text-align: center; margin: 100px auto;">
+       <button type="button" class="button1"  data-toggle="modal" data-target="#modalOne" routerLink="depositamount" >Deposit Amount</button>
+       
+<button type="button" class="button1" data-toggle="modal" routerLink="viewmobreq">View Mobile Change Requests</button>
+
+<button type="button" class="button1" data-toggle="modal" data-target="#modalThird"  routerLink="checkbalance">View Balance Of Any Account</button>
+                    
+         <button type="button" class="button1" data-toggle="modal" data-target="#modalSixth"  routerLink="transferamount">Transfer Amount</button>
+</div>

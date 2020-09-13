@@ -1,0 +1,67 @@
+header {
+  position: relative;
+  background-color: black;
+  height: 45vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;}
+
+
+  .scontainer
+  {
+    padding:0px;
+    margin-top:50px;
+    text-align: center;
+    top:230px;
+    width:80px;
+    z-index: 1100;
+ 
+}
+.slist li
+{
+    list-style-type:none;
+    color:#2887C1;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+    background-color:white;
+    font-size: 35px;
+     margin: 8px auto;
+}
+.slist li:hover
+{
+    margin-left:-115px;
+}
+
+

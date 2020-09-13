@@ -1,0 +1,47 @@
+.nav-pills .active{
+    background-color: white;
+    color: #2887C1;
+    padding:10px 30px;
+}
+.nav-pills{
+    background-color: #2887C1;;
+    border:2px solid white;
+    color: white;
+    padding:10px;
+    margin-right:50px
+}
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+.bg-blue{
+    background-color: #2887C1;
+}
+
+.btn-custom{
+    background-color: rgba(0,0,0,0.4);
+    border: 2px solid white;
+    color:white
+}
+
+.btn-custom:hover{
+    background-color: rgba(0,0,0,0.6);
+    border: 2px solid white;
+    color:white
+}

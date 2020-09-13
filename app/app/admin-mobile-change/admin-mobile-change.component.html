@@ -1,0 +1,23 @@
+<br><br>
+<div class="container">
+<table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th>Sr.No</th>
+        <th>Account Number</th>
+        <th>Old Mobile Number</th>
+        <th>New Mobile Number</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let m of arr; let i=index">
+        <td> {{i+1}} </td>
+        <td>{{m.accountNo}}</td>
+        <td>{{m.oldMobileNo}}</td>
+        <td>{{m.newMobileNo}}</td>
+       
+      </tr>
+ </tbody>
+  </table>
+</div>
